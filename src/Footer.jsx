@@ -28,7 +28,7 @@ export const Footer = () => {
           <div className="flex justify-between max-w-[197px] m-auto mt-16 lg:mt-16">
             <div>
               <a href="https://facebook.com" target="_blank" rel="noreferrer">
-                <img src="../public/iconos/icon-facebook.svg" alt="Facebook.jpg" />
+                <img src="/iconos/icon-facebook.svg" alt="Facebook.jpg" />
               </a>
             </div>
             <div>
