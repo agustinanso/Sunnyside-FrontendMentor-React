@@ -5,7 +5,7 @@ export const Hero = () => {
         <div>
           <div className="sm:flex">
             <div className="m-auto w-full order-2 ">
-              <img src="../public/celular/image-transform.jpg" className="w-full " />
+              <img src="/celular/image-transform.jpg" className="w-full " />
             </div>
             <div className="w-full justify-center items-center m-auto text-center sm:text-left">
               <div className=" max-w-[322px] xl:max-w-[390px] m-auto pb-8 pt-8">
@@ -80,7 +80,7 @@ export const Hero = () => {
                     improve your business image.
                   </p>
                 </div>
-                <img src="../public/Compu/image-photography.jpg" className="w-full" />
+                <img src="/Compu/image-photography.jpg" className="w-full" />
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@ export const NavBar = () => {
       <header className=" flex w-full  justify-center ">
         <div className=" relative ">
           <img
-            src="../public/Compu/image-header.jpg"
+            src="/Compu/image-header.jpg"
             className=" w-full h-[380px] object-cover sm:h-full lg:object-scale-down "
           />
           <div className=" absolute  justify-center text-center w-full items-center -translate-x-2/4 -translate-y-1/2 top-2/4 left-2/4 right-2/4 bottom-4/4">
@@ -30,7 +30,7 @@ export const NavBar = () => {
             </div>
             <div className="justify-center items-center">
               <img
-                src="../public/iconos/icon-arrow-down.svg"
+                src="/iconos/icon-arrow-down.svg"
                 alt=""
                 className="m-auto  xl:h-48 xl:p-4 p-4 "
               />
@@ -46,7 +46,7 @@ export const NavBar = () => {
             <div className="pt-3">
               <button id="menu" onClick={prendido}>
                 <img
-                  src="../public/iconos/icon-hamburger.svg"
+                  src="/iconos/icon-hamburger.svg"
                   className="md:hidden 
             "
                 />

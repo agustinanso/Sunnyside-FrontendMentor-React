@@ -33,17 +33,17 @@ export const Footer = () => {
             </div>
             <div>
               <a href="https://instagram.com" target="_blank" rel="noreferrer">
-                <img src="../public/iconos/icon-instagram.svg" alt="Instagram.jpg" />
+                <img src="/iconos/icon-instagram.svg" alt="Instagram.jpg" />
               </a>
             </div>
             <div>
               <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                <img src="../public/iconos/icon-twitter.svg" alt="Twitter.jpg" />
+                <img src="/iconos/icon-twitter.svg" alt="Twitter.jpg" />
               </a>
             </div>
             <div>
               <a href="https://pinterest.com" target="_blank" rel="noreferrer">
-                <img src="../public/iconos/icon-pinterest.svg" alt="Pinterest.jpg" />
+                <img src="/iconos/icon-pinterest.svg" alt="Pinterest.jpg" />
               </a>
             </div>
           </div>

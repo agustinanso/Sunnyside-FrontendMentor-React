@@ -16,7 +16,7 @@ export const HeroInferior = () => {
             <div className="justify-center items-center">
               <div>
                 <img
-                  src="../public/iconos/image-emily.jpg"
+                  src="/iconos/image-emily.jpg"
                   alt="Emily picture"
                   className="h-24 w-24 m-auto p-2 rounded-full"
                 />
@@ -39,7 +39,7 @@ export const HeroInferior = () => {
             <div className="justify-center items-center">
               <div>
                 <img
-                  src="../public/iconos/image-thomas.jpg"
+                  src="/iconos/image-thomas.jpg"
                   alt="Thomas picture"
                   className="h-24 w-24 m-auto p-2 rounded-full"
                 />
@@ -61,7 +61,7 @@ export const HeroInferior = () => {
             <div className="justify-center items-center ">
               <div>
                 <img
-                  src="../public/iconos/image-jennie.jpg"
+                  src="/iconos/image-jennie.jpg"
                   alt="Jennie picture"
                   className="h-24 w-24 m-auto p-2 rounded-full"
                 />
@@ -86,29 +86,21 @@ export const HeroInferior = () => {
             <div className="md:flex">
               <div>
                 <img
-                  src="../public/Compu/image-gallery-milkbottles.jpg"
+                  src="/Compu/image-gallery-milkbottles.jpg"
                   alt=""
                   className=" w-full max-w-auto"
                 />
               </div>
               <div>
-                <img
-                  src="../public/Compu/image-gallery-sugarcubes.jpg"
-                  alt=""
-                  className=" max-w-auto"
-                />
+                <img src="/Compu/image-gallery-sugarcubes.jpg" alt="" className=" max-w-auto" />
               </div>
             </div>
             <div className="md:flex">
               <div>
-                <img
-                  src="../public/Compu/image-gallery-orange.jpg"
-                  alt=""
-                  className=" max-w-auto"
-                />
+                <img src="/Compu/image-gallery-orange.jpg" alt="" className=" max-w-auto" />
               </div>
               <div>
-                <img src="../public/Compu/image-gallery-cone.jpg" alt="" className="max-w-auto" />
+                <img src="/Compu/image-gallery-cone.jpg" alt="" className="max-w-auto" />
               </div>
             </div>
           </div>
