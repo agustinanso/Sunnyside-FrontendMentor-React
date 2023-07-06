@@ -29,7 +29,7 @@ export const Hero = () => {
           </div>
           <div className="sm:flex">
             <div className="w-full m-auto">
-              <img src="../public/celular/image-stand-out.jpg" className="w-full" />
+              <img src="/celular/image-stand-out.jpg" className="w-full" />
             </div>
             <div className="items-center justify-center w-full m-auto text-center sm:text-left">
               <div className=" max-w-[320px] xl:max-w-[390px]  m-auto pb-8 pt-8">
@@ -53,7 +53,7 @@ export const Hero = () => {
           </div>
 
           {/* Fotos dobles / Naranja */}
-          <div className="justify-center  sm:mt-0 sm:flex">
+          <div className="justify-center sm:mt-0 sm:flex">
             <div className="relative md:flex sm:w-3/6 ">
               <div className="flex items-center justify-center w-full m-auto ">
                 <div className="absolute text-center -translate-x-2/4 -translate-y-1/2 top-3/4 left-2/4 bottom-4/4  right-2/4 w-full md:max-w-[325px] xl:max-w-[325px]">
@@ -66,7 +66,7 @@ export const Hero = () => {
                     brand message and captures potential clients attention.
                   </p>
                 </div>
-                <img src="../public/Compu/image-graphic-design.jpg" className="w-full" />
+                <img src="/Compu/image-graphic-design.jpg" className="w-full" />
               </div>
             </div>
 
