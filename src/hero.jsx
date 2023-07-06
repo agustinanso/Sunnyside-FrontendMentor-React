@@ -4,10 +4,10 @@ export const Hero = () => {
       <section className="flex-col">
         <div>
           <div className="sm:flex">
-            <div className="m-auto w-full order-2 ">
+            <div className="order-2 w-full m-auto ">
               <img src="/celular/image-transform.jpg" className="w-full " />
             </div>
-            <div className="w-full justify-center items-center m-auto text-center sm:text-left">
+            <div className="items-center justify-center w-full m-auto text-center sm:text-left">
               <div className=" max-w-[322px] xl:max-w-[390px] m-auto pb-8 pt-8">
                 <p className="font-[fraunces] text-3xl pb-4 text-[#23303e] xl:text-5xl xl:w-full">
                   Transform your brand
@@ -20,7 +20,7 @@ export const Hero = () => {
                 <p className="font-[fraunces] pt-8 m-auto xl:text-2xl ">
                   <a
                     href="#"
-                    className="hover:bg-gradient-to-t hover:from-yellow-200 hover:to-white px-2 rounded-full ">
+                    className="px-2 rounded-full hover:bg-gradient-to-t hover:from-yellow-200 hover:to-white ">
                     LEARN MORE
                   </a>
                 </p>
@@ -28,10 +28,10 @@ export const Hero = () => {
             </div>
           </div>
           <div className="sm:flex">
-            <div className="m-auto w-full">
+            <div className="w-full m-auto">
               <img src="../public/celular/image-stand-out.jpg" className="w-full" />
             </div>
-            <div className="w-full justify-center items-center m-auto  text-center sm:text-left">
+            <div className="items-center justify-center w-full m-auto text-center sm:text-left">
               <div className=" max-w-[320px] xl:max-w-[390px]  m-auto pb-8 pt-8">
                 <p className="font-[fraunces] text-3xl pb-4 text-[#23303e] xl:text-5xl xl:w-full ">
                   Stand out to the right audience
@@ -44,7 +44,7 @@ export const Hero = () => {
                 <p className="font-[fraunces] mt-10 text-sm xl:text-2xl">
                   <a
                     href="#"
-                    className="hover:bg-gradient-to-t hover:from-rose-300 hover:to-white px-2 rounded-full">
+                    className="px-2 rounded-full hover:bg-gradient-to-t hover:from-rose-300 hover:to-white">
                     LEARN MORE
                   </a>
                 </p>
@@ -53,9 +53,9 @@ export const Hero = () => {
           </div>
 
           {/* Fotos dobles / Naranja */}
-          <div className=" sm:mt-0  justify-center sm:flex ">
-            <div className="md:flex sm:w-3/6 relative ">
-              <div className="flex m-auto justify-center items-center w-full ">
+          <div className="justify-center  sm:mt-0 sm:flex">
+            <div className="relative md:flex sm:w-3/6 ">
+              <div className="flex items-center justify-center w-full m-auto ">
                 <div className="absolute text-center -translate-x-2/4 -translate-y-1/2 top-3/4 left-2/4 bottom-4/4  right-2/4 w-full md:max-w-[325px] xl:max-w-[325px]">
                   <p className="text-xl  font-[fraunces] pb-2 xl:text-4xl m-auto ">
                     {" "}
@@ -71,9 +71,9 @@ export const Hero = () => {
             </div>
 
             {/* Cerezas */}
-            <div className="sm:flex sm:w-3/6 relative">
-              <div className="flex m-auto justify-center items-center w-full">
-                <div className="absolute text-center -translate-x-2/4 -translate-y-1/2 top-3/4 left-2/4 right-2/4 bottom-4/4 w-full">
+            <div className="relative sm:flex sm:w-3/6">
+              <div className="flex items-center justify-center w-full m-auto">
+                <div className="absolute w-full text-center -translate-y-1/2 -translate-x-2/4 top-3/4 left-2/4 right-2/4 bottom-4/4">
                   <p className="text-xl font-[fraunces] pb-2 xl:text-4xl  m-auto"> Photography</p>
                   <p className="text-center font-semibold xl:text-xl  text-md w-full max-w-[297px] px-2  sm:max-w-[297px] xl:max-w-[297px]  m-auto">
                     Increase your credibility by getting the most stunning, high-quality photos that
